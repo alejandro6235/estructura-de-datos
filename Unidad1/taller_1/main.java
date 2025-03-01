@@ -41,6 +41,7 @@ public class main {
 			for (int i = 0; i < p1.length; i++) {
 				p2[i] = p1[i];
 			}
+			
 
 			for (int i = p1.length; i < p2.length; i++) {
 				System.out.println("ingrese el nombre del producto: ");
@@ -85,8 +86,8 @@ public class main {
 		System.out.println(
 				"-------------------productos ordenadas por el metodo burbuja ordenado por  disponibilidad-------------------------------------");
 		System.out.println();
-		for (int i = 0; i < p1.length; i++) {
-			p1[i].mostrardatos();
+		for (int i = 0; i < p2.length; i++) {
+			p2[i].mostrardatos();
 		}
 
 		// metodo insert sort
@@ -126,7 +127,7 @@ public class main {
 			}
 			p2[j + 1] = aux2;
 		}
-		for (int i = 0; i < p1.length; i++) {
+		for (int i = 0; i < p2.length; i++) {
 			p2[i].mostrardatos();
 		}
 			System.out.println("--------------ordenamiento de busqueda---------------------------------");
